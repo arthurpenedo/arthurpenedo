@@ -41,11 +41,6 @@
 | [**reclamacoes-radar**](https://github.com/arthurpenedo/reclamacoes-radar) | Dados abertos do consumidor.gov.br → **DuckDB** → indicadores em SQL + resumo executivo com IA | Python · DuckDB · SQL |
 | [**vagas-mcp**](https://github.com/arthurpenedo/vagas-mcp) | **Servidor MCP** que dá ao Claude ferramentas para gerenciar candidaturas e o funil de conversão | Python · MCP · SQLite |
 
----|---|---|
-| [**Resolvoja**](https://github.com/arthurpenedo/resolvoja) | Plataforma SaaS de soluções com IA para pequenas empresas: chat com IA, briefings, assinaturas e painel admin | React · Node/Express · PocketBase · Claude API · Stripe |
-| 🔨 **ats-match** *(em construção)* | Compara currículo × vaga como um ATS (estilo Gupy) e sugere ajustes honestos com LLM | Python · FastAPI · Claude API |
-| 🔨 **atendimento-eval** *(em breve)* | LLM-as-judge para medir a qualidade de atendimentos e testes de regressão de prompt | Python · Claude API · dashboard |
-
 ---
 
 <p align="center"><i>Construindo em público. Novos projetos toda semana.</i></p>
