@@ -21,9 +21,9 @@
 
 ### 🛠️ Stack
 
-**IA & LLMs:** Claude API · prompt engineering · avaliação de prompts · agentes · RAG  
+**IA & LLMs:** Claude API · prompt engineering · LLM-as-judge · RAG · MCP · saída estruturada  
 **Código:** Python · JavaScript · Node.js · React · SQL  
-**Dados & Cloud:** AWS (Athena, QuickSight) · Alteryx · PocketBase · Railway  
+**Dados & Cloud:** SQL · DuckDB · AWS (Athena, QuickSight) · Alteryx · PocketBase · Railway  
 **Automação:** Power Automate · Microsoft Copilot · integrações via API (Stripe, Notion, Resend)
 
 <p>
@@ -34,6 +34,14 @@
 
 | Projeto | O que é | Stack |
 |---|---|---|
+| [**Resolvoja**](https://github.com/arthurpenedo/resolvoja) | SaaS **em produção** de soluções com IA para pequenas empresas: chat com IA, assinaturas e painel admin | React · Node/Express · PocketBase · Claude API · Stripe |
+| [**ats-match**](https://github.com/arthurpenedo/ats-match) | Compara currículo × vaga como um ATS (estilo Gupy) e sugere reescritas **honestas** com LLM | Python · FastAPI · Claude API |
+| [**atendimento-eval**](https://github.com/arthurpenedo/atendimento-eval) | Avalia a qualidade de atendimentos com regras (LGPD) + **LLM-as-judge** e compara versões de prompt | Python · Claude API · YAML |
+| [**cdc-rag**](https://github.com/arthurpenedo/cdc-rag) | **RAG** sobre o Código de Defesa do Consumidor com citação dos artigos e avaliação hit@k/MRR | Python · BM25 · Claude API |
+| [**reclamacoes-radar**](https://github.com/arthurpenedo/reclamacoes-radar) | Dados abertos do consumidor.gov.br → **DuckDB** → indicadores em SQL + resumo executivo com IA | Python · DuckDB · SQL |
+| [**vagas-mcp**](https://github.com/arthurpenedo/vagas-mcp) | **Servidor MCP** que dá ao Claude ferramentas para gerenciar candidaturas e o funil de conversão | Python · MCP · SQLite |
+
+---|---|---|
 | [**Resolvoja**](https://github.com/arthurpenedo/resolvoja) | Plataforma SaaS de soluções com IA para pequenas empresas: chat com IA, briefings, assinaturas e painel admin | React · Node/Express · PocketBase · Claude API · Stripe |
 | 🔨 **ats-match** *(em construção)* | Compara currículo × vaga como um ATS (estilo Gupy) e sugere ajustes honestos com LLM | Python · FastAPI · Claude API |
 | 🔨 **atendimento-eval** *(em breve)* | LLM-as-judge para medir a qualidade de atendimentos e testes de regressão de prompt | Python · Claude API · dashboard |
