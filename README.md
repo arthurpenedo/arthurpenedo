@@ -24,7 +24,7 @@
 **IA & LLMs:** Claude API · prompt engineering · LLM-as-judge · RAG · embeddings · MCP · saída estruturada  
 **Código:** Python · JavaScript · Node.js · React · SQL  
 **Dados & Cloud:** SQL · DuckDB · AWS (Athena, QuickSight) · Alteryx · PocketBase · Railway  
-**Automação:** Power Automate · Microsoft Copilot · integrações via API (Stripe, Notion, Resend)
+**Automação:** n8n · Power Automate · Microsoft Copilot · GitHub Actions · integrações via API (Stripe, Notion, Telegram, Resend)
 
 <p>
   <img src="https://skillicons.dev/icons?i=py,js,nodejs,react,postgres,aws,git,github&theme=dark" alt="stack">
@@ -39,6 +39,7 @@
 | [**atendimento-eval**](https://github.com/arthurpenedo/atendimento-eval) | Avalia a qualidade de atendimentos com regras (LGPD) + **LLM-as-judge** e compara versões de prompt · [demo ↗](https://arthurpenedo.github.io/atendimento-eval/) | Python · Claude API · YAML |
 | [**cdc-rag**](https://github.com/arthurpenedo/cdc-rag) | **RAG** sobre o Código de Defesa do Consumidor: busca **híbrida** (BM25 + embeddings locais), citação dos artigos e avaliação hit@k/MRR · [demo ↗](https://arthurpenedo.github.io/cdc-rag/) | Python · BM25 · embeddings · Claude API |
 | [**reclamacoes-radar**](https://github.com/arthurpenedo/reclamacoes-radar) | Dados abertos do consumidor.gov.br → **DuckDB** → indicadores em SQL + resumo executivo com IA · [demo ↗](https://arthurpenedo.github.io/reclamacoes-radar/) | Python · DuckDB · SQL |
+| [**radar-vagas-n8n**](https://github.com/arthurpenedo/radar-vagas-n8n) | **Automação n8n** que busca vagas na Gupy todo dia útil, pontua cada uma contra o currículo via API Python e manda o ranking no Telegram; roda de verdade no CI · [demo ↗](https://arthurpenedo.github.io/radar-vagas-n8n/) | n8n · JavaScript · GitHub Actions · Python |
 | [**vagas-mcp**](https://github.com/arthurpenedo/vagas-mcp) | **Servidor MCP** que dá ao Claude ferramentas para gerenciar candidaturas: funil de conversão, aderência do currículo à vaga e sincronização com o Notion · [demo ↗](https://arthurpenedo.github.io/vagas-mcp/) | Python · MCP · SQLite · Notion API |
 
 ---
