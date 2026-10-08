@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/arthuralves-penedo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/arthurpenedo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://resolvoja.com"><img src="https://img.shields.io/badge/Resolvoja-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Resolvoja"></a>
   <img src="https://img.shields.io/badge/Aberto%20a%20oportunidades-2ea44f?style=for-the-badge" alt="Aberto a oportunidades">
 </p>
